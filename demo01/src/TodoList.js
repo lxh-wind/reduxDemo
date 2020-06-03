@@ -18,6 +18,7 @@ class TodoList extends Component {
     const action = getMyListAction();
     store.dispatch(action)
   }
+
   changeInputValue(e){
     const action = changeInputAction(e.target.value);
     store.dispatch(action)
